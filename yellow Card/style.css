@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Figtree';
+    src: url('./assets/fonts/Figtree-VariableFont_wght.ttf') format('woff2'),}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F4D04E;
+    font-family: 'Figtree';
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+ padding: 24px 24px;
+ background-color: white;  
+ border-radius: 20px; 
+ border: 1px solid black;
+ box-shadow:  10px 10px 1px -4px black ;
+ transition: box-shadow 300ms ease-in-out;
+ margin: 10px;
+}
+.card:hover{
+    box-shadow:  20px 20px 1px -4px black ;
+   
+}
+
+.content{
+    padding: 24px 0px;
+    max-width: 336px;
+}
+img{
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    
+   
+}
+button{
+    padding: 6px 12px;
+    background-color: #F4D04E;
+    border: none;
+    border-radius: 4px;
+    font-weight: 800;
+}
+.time{
+    padding-top: 12px;
+}
+h1{
+    font-size: 24px;
+   margin: 0;
+   padding: 10px 0;
+   transition: color 300ms ease-in-out;
+}
+h1:hover{
+    color: #F4D04E;
+}
+p{
+    font-size: 17px;
+    color: #7F7F7F;
+    margin: 0;
+   
+}
+.person{
+    display: flex;
+}
+.person img {
+    padding: 5px;
+  }
+h3{
+    margin: 0;
+    padding: 10px;
+}
