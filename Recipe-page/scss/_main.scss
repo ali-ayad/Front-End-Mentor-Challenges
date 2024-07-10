@@ -1,0 +1,111 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+
+   
+}
+.card{
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px;
+   
+    img{
+        border-radius: 10px;
+    }
+    
+    h1{
+        color: black;
+        padding: 20px 0;
+    }
+    p{
+        font-size: 16px;
+    }
+    
+   
+}
+
+.Preparation-card{
+    background-color:$RoseWhite ;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin: 20px 0;
+    h2{
+        color: $DarkRaspberry;
+        padding: 10px 0;
+    }
+    ul{
+        padding: 0 22px;
+       ::marker{
+        color: $DarkRaspberry;
+       }
+    }
+    li{
+        padding:  5px 20px;
+    }
+  
+
+}
+.Ingredients{
+    h2{
+        color: $Nutmeg;
+        padding: 10px 0;
+    }
+    ul{
+        padding: 0 22px;
+       ::marker{
+        color: $Nutmeg;
+       }}
+       li{
+        padding:  5px 20px;
+    }
+    hr{
+        color:$WengeBrown ;
+        margin: 25px 0;
+        opacity: 0.3;
+    }
+}
+.Instructions{
+    h2{
+        color: $Nutmeg;
+        padding: 10px 0;
+    }
+    ol{
+        max-width: 650px;
+        padding: 0 20px;
+       ::marker{
+        color: $Nutmeg;
+       }}
+       li{
+        padding:  5px 10px;
+    }
+    hr{
+        color:$WengeBrown ;
+        margin: 25px 0;
+        opacity: 0.3;
+    }
+}
+.Nutrition{
+    h2{
+        color: $Nutmeg;
+        padding: 10px 0;
+    }
+    p{
+        padding: 5px 0;
+    }
+    table{
+        border-collapse: collapse;
+        width: 100%;
+    }
+    th,td{
+        padding: 9px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+    td{
+        color: $Nutmeg;
+        font-weight: bolder;
+    }
+}
