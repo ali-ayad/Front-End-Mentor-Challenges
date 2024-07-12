@@ -1,40 +1,48 @@
-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-   
 
-   
-}
 .card{
     background-color: white;
     border-radius: 20px;
+    margin: 130px 5px;
     padding: 40px;
+   
    
     img{
         border-radius: 10px;
+        width: 100%;
     }
     
     h1{
-        color: black;
+        color: $DarkCharcoal;
         padding: 20px 0;
+        font-size: 2.2rem;
+        font-weight: 400;
+        font-family: "Young Serif";
+    }
+    h2{
+        color: $Nutmeg;
+        padding: 10px 0;
+        font-size: 1.75rem;
+        font-weight: 400;
+        font-family: "Young Serif";
     }
     p{
         font-size: 16px;
+        max-width: 650px;
     }
     
    
 }
+
 
 .Preparation-card{
     background-color:$RoseWhite ;
     border-radius: 10px;
     padding: 15px 30px;
     margin: 20px 0;
-    h2{
+    h3{
         color: $DarkRaspberry;
         padding: 10px 0;
+        
     }
     ul{
         padding: 0 22px;
@@ -49,10 +57,7 @@ main{
 
 }
 .Ingredients{
-    h2{
-        color: $Nutmeg;
-        padding: 10px 0;
-    }
+   
     ul{
         padding: 0 22px;
        ::marker{
@@ -68,10 +73,7 @@ main{
     }
 }
 .Instructions{
-    h2{
-        color: $Nutmeg;
-        padding: 10px 0;
-    }
+   
     ol{
         max-width: 650px;
         padding: 0 20px;
@@ -100,12 +102,14 @@ main{
         width: 100%;
     }
     th,td{
-        padding: 9px;
+        padding: 12px 25px;
         text-align: left;
         border-bottom: 1px solid #ddd;
     }
     td{
         color: $Nutmeg;
         font-weight: bolder;
+       
     }
+    
 }

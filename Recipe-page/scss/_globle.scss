@@ -1,6 +1,13 @@
 @font-face {
-    font-family: "Young Serif";
+    font-family: "Outfit";
     src: url('../assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('woff2'),}
+
+   
+      
+      @font-face {
+        font-family: "Young Serif";
+        src: url("../assets/fonts/young-serif/YoungSerif-Regular.ttf");
+      }
 
 
 *{
@@ -12,8 +19,15 @@
 body{
    background-color: $Eggshell;
    color: $WengeBrown;
-   font-family: "Young Serif";
-   margin: 500px 0;
+   font-family: "Outfit";
+  
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+   margin: 0; /* Ensure no margin is applied */
+   
+   
 }
 span{
     font-weight: bolder;
